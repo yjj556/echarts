@@ -3,7 +3,8 @@ var PROD = process.argv.indexOf('-p') >= 0;
 module.exports = {
     entry: {
         'bmap': __dirname + '/../extension/bmap/bmap.js',
-        'dataTool': __dirname + '/../extension/dataTool'
+        'dataTool': __dirname + '/../extension/dataTool',
+        'echarts.leaflet': __dirname + '/../extension/leaflet/echarts.leaflet.js'
     },
     output: {
         libraryTarget: 'umd',
